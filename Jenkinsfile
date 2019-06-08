@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        git(url: 'https://github.com/evan-boissonnot/test-js-docker-jenkins', branch: 'master')
+        git(url: 'https://github.com/evan-boissonnot/test-js-docker-jenkins', changelog: true, branch: 'master')
       }
     }
   }
